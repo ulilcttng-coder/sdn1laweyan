@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 *.zip
+push-github.bat
 
 # Editor directories and files
 .vscode/*
