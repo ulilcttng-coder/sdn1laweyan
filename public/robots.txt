@@ -1,0 +1,20 @@
+# robots.txt for SDN 1 Laweyan Probolinggo
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /assets/
+
+# Googlebot specific optimizations
+User-agent: Googlebot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.svg$
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://ulilcttng-coder.github.io/sdn1laweyan/sitemap.xml

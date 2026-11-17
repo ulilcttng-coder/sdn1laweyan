@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import PageSEO from './components/PageSEO';
 
 // Dedicated Pages
 import HomePage from './pages/HomePage';
@@ -20,6 +21,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
+      <PageSEO />
       <div className="min-h-screen flex flex-col bg-[#F8FAFC] text-slate-800 font-sans selection:bg-blue-600 selection:text-white">
         
         {/* Navigation Bar */}
