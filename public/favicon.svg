@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Base circle badge -->
+  <circle cx="60" cy="60" r="56" fill="url(#grad1)" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#ffffff" stroke-dasharray="2,2" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Star at top -->
+  <polygon points="60,18 63,26 71,26 65,30 67,38 60,33 53,38 55,30 49,26 57,26" fill="#fbbf24"/>
+  
+  <!-- Open Book -->
+  <path d="M60 70 C50 64 35 65 28 69 L28 88 C35 84 50 83 60 88 C70 83 85 84 92 88 L92 69 C85 65 70 64 60 70 Z" fill="#ffffff" stroke="#1e3a8a" stroke-width="1.5"/>
+  <path d="M60 70 L60 88" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Flame / Obor Pendidikan (Tut Wuri Handayani style) -->
+  <path d="M60 40 C63 46 67 50 67 55 C67 61 62 65 60 65 C58 65 53 61 53 55 C53 50 57 46 60 40 Z" fill="url(#gold)"/>
+  <path d="M60 46 C61 49 63 52 63 55 C63 58 61 60 60 60 C59 60 57 58 57 55 C57 52 59 49 60 46 Z" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Wings / Sayap -->
+  <path d="M46 56 C38 54 32 58 29 64 C36 63 42 66 45 70" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M74 56 C82 54 88 58 91 64 C84 63 78 66 75 70" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Bottom Ribbon text indicator -->
+  <path d="M36 94 Q60 102 84 94" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+</svg>
